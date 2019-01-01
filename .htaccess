@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ download.php?file=$1 [NC,L,QSA]
+</IfModule>
